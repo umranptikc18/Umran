@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int ikancupang [5];
+  int hasil = 0;
+  for(int i = 0; i<5; i++)
+ {
+  cout <<"Input aquarium ke-" << (i+1)<< ":";
+  cin >> ikancupang [i];
+ }
+  cout <<"Nilai IkanCupang yang Anda masukkan..." <<endl;
+  for (int i = 0; i<5; i++)
+ {
+  hasil+= ikancupang [i];
+  cout <<"\nAquarium ke-" << (i+1) <<"adalah"<<ikancupang [i] <<"Ekor";
+ }
+  cout <<"\nTotal IkanCupang dalam Aquarium..." <<endl <<endl;
+  cout <<hasil <<"Ekor";
+  return 0;
+ }
